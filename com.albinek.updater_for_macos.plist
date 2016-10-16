@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Label</key>
+		<string>com.albinek.mac.updater_for_macos</string>
+		<key>EnvironmentVariables</key>
+		<dict>
+			<key>PATH</key>
+			<string>~/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:</string>
+		</dict>
+		<key>Program</key>
+		<string>~/updater_for_macos.sh</string>
+		<key>StartCalendarInterval</key>
+		<dict>
+			<key>Hour</key>
+			<integer>11</integer>
+			<key>Minute</key>
+			<integer>00</integer>
+		</dict>
+	</dict>
+</plist>
