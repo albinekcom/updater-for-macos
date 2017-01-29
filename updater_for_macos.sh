@@ -9,6 +9,7 @@ softwareupdate --install --all
 
 echo "- Updating \"brew\" -"
 brew update
+brew upgrade
 brew cleanup
 brew cask cleanup
 
