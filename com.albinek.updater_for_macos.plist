@@ -7,11 +7,11 @@
 		<key>EnvironmentVariables</key>
 		<dict>
 			<key>PATH</key>
-			<string>~/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:</string>
+			<string>/Users/albinek/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:</string>
 		</dict>
 		<key>ProgramArguments</key>
 		<array>
-    	<string>~/updater_for_macos.sh</string>
+    	<string>/Users/albinek/updater_for_macos.sh</string>
 		</array>
 		<key>StartCalendarInterval</key>
 		<dict>
