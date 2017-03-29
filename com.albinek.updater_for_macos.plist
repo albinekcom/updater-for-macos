@@ -13,6 +13,12 @@
 		<array>
     	<string>/Users/albinek/updater_for_macos.sh</string>
 		</array>
+		<key>RunAtLoad</key>
+		<true/>
+		<key>StandardOutPath</key>
+		<string>/tmp/com.albinek.mac.updater_for_macos.stdout</string>
+		<key>StandardErrorPath</key>
+		<string>/tmp/com.albinek.mac.updater_for_macos.stderr</string>
 		<key>StartCalendarInterval</key>
 		<dict>
 			<key>Hour</key>
