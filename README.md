@@ -6,7 +6,7 @@ It is a script for updating `macOS` and other stuff.
 ## Manual usage
 
 ```bash
-sh updater_for_macos.sh
+$ sh updater_for_macos.sh
 ```
 
 
