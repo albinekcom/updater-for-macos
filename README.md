@@ -2,8 +2,9 @@
 
 It is a script for updating `macOS` and other stuff.
 
+## Usage
 
-## Manual usage
+### Normal
 
 Execute script with some arguments. The arguments are matched with file names located in `lib` directory.
 
@@ -11,7 +12,7 @@ Execute script with some arguments. The arguments are matched with file names lo
 $ ./updater_for_macos.sh --macos --brew
 ```
 
-## Parallel usage 🏎️🏎️🏎️
+### Parallel 🏎️🏎️🏎️
 
 Use [parallel](https://www.gnu.org/software/parallel/) shell tool to update software in a parallel manner.
 
@@ -19,10 +20,9 @@ Use [parallel](https://www.gnu.org/software/parallel/) shell tool to update soft
 $ parallel ./updater_for_macos.sh ::: --macos --brew --gem --apm
 ```
 
-## Automated usage
+### Automated
 
 Tweak parameters (remember about changing `PATH` and `ProgramArguments`) in `com.albinek.updater_for_macos.plist` file then load it using `launchctl`.
-
 
 ## Need more updaters?
 
