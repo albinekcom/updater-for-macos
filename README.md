@@ -13,7 +13,7 @@ $ ./updater_for_macos.sh --macos --brew
 
 ## Parallel usage 🏎️🏎️🏎️
 
-Use [parallel](https://www.gnu.org/software/parallel/) shell tool to update software in parallel manner.
+Use [parallel](https://www.gnu.org/software/parallel/) shell tool to update software in a parallel manner.
 
 ```bash
 $ parallel ./updater_for_macos.sh ::: --macos --brew --gem --apm
