@@ -11,7 +11,11 @@
 		</dict>
 		<key>ProgramArguments</key>
 		<array>
-    	<string>/Users/albinek/updater_for_macos.sh</string>
+			<string>/Users/albinek/updater_for_macos.sh</string>
+			<string>--macos</string>
+			<string>--brew</string>
+			<string>--gem</string>
+			<string>--apm</string>
 		</array>
 		<key>RunAtLoad</key>
 		<true/>
