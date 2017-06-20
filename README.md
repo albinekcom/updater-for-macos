@@ -22,8 +22,12 @@ $ parallel ./updater_for_macos.sh ::: --macos --brew --gem --apm
 
 ### Automated
 
-Tweak parameters (remember about changing `PATH` and `ProgramArguments`) in `com.albinek.mac.updater_for_macos.plist` file then load it using `launchctl`.
+Tweak parameters (remember about changing `PATH` and `ProgramArguments`) in `com.albinek.mac.updater_for_macos.plist` file, move it to `~/Library/LaunchAgents/` directory and load using `launchctl`.
+
+```bash
+$ launchctl load com.albinek.mac.updater_for_macos.plist
+```
 
 ## Need more updaters?
 
-Just add a new file in `lib` directory, fill with update commands and invoke script with new file's name as an argument.
+Just add a new file in `lib` directory, fill with update commands and invoke this script with new file's name as an argument.
