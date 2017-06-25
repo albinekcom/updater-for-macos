@@ -13,6 +13,7 @@
 		<array>
 			<string>/Users/albinek/updater_for_macos.sh</string>
 			<string>--macos</string>
+			<string>--mas</string>
 			<string>--brew</string>
 			<string>--gem</string>
 			<string>--apm</string>
